@@ -1,0 +1,64 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.wrapper > * {
+  padding: 20px;
+}
+
+body {
+  background-image: url("../media/image/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  vertical-align: bottom;
+  background-position: 0%;
+  background-size: 100%;
+}
+
+.page-header {
+  text-align: center;
+  font-family: "Monospace", "Lucida Console";
+}
+
+.page-main {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.page-main > .earth {
+  display: flex;
+  align-items: flex-end;
+  font-family: "Monospace", "Lucida Console";
+}
+
+.page-main > .air {
+  display: flex;
+  align-items: flex-end;
+  font-family: "Monospace", "Lucida Console";
+}
+
+.page-main > .fire {
+  display: flex;
+  align-items: flex-end;
+  font-family: "Monospace", "Lucida Console";
+}
+
+.page-main > .water {
+  display: flex;
+  align-items: flex-end;
+  font-family: "Monospace", "Lucida Console";
+}
+
+.page-footer {
+  display: flex;
+  font-family: "Monospace", "Lucida Console";
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
